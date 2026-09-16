@@ -1,0 +1,98 @@
+vlans:
+  iot_vlan:
+    vid: 100
+    description: "SDN IoT Experimental VLAN"
+
+dps:
+  s1:
+    dp_id: 0x1
+    hardware: "Open vSwitch"
+    interfaces:
+      1:
+        name: "broker"
+        description: "MQTT Broker"
+        native_vlan: iot_vlan
+      2:
+        name: "sink"
+        description: "IoT Data Sink"
+        native_vlan: iot_vlan
+      3:
+        name: "iot1"
+        description: "IoT Publisher 1"
+        native_vlan: iot_vlan
+      4:
+        name: "iot2"
+        description: "IoT Publisher 2"
+        native_vlan: iot_vlan
+      5:
+        name: "iot3"
+        description: "IoT Publisher 3"
+        native_vlan: iot_vlan
+      6:
+        name: "iot4"
+        description: "IoT Publisher 4"
+        native_vlan: iot_vlan
+      7:
+        name: "iot5"
+        description: "IoT Publisher 5"
+        native_vlan: iot_vlan
+      8:
+        name: "iot6"
+        description: "IoT Publisher 6"
+        native_vlan: iot_vlan
+      9:
+        name: "iot7"
+        description: "IoT Publisher 7"
+        native_vlan: iot_vlan
+      10:
+        name: "iot8"
+        description: "IoT Publisher 8"
+        native_vlan: iot_vlan
+      11:
+        name: "iot9"
+        description: "IoT Publisher 9"
+        native_vlan: iot_vlan
+      12:
+        name: "iot10"
+        description: "IoT Publisher 10"
+        native_vlan: iot_vlan
+      13:
+        name: "iot11"
+        description: "IoT Publisher 11"
+        native_vlan: iot_vlan
+      14:
+        name: "iot12"
+        description: "IoT Publisher 12"
+        native_vlan: iot_vlan
+      15:
+        name: "iot13"
+        description: "IoT Publisher 13"
+        native_vlan: iot_vlan
+      16:
+        name: "iot14"
+        description: "IoT Publisher 14"
+        native_vlan: iot_vlan
+      17:
+        name: "iot15"
+        description: "IoT Publisher 15"
+        native_vlan: iot_vlan
+      18:
+        name: "iot16"
+        description: "IoT Publisher 16"
+        native_vlan: iot_vlan
+      19:
+        name: "iot17"
+        description: "IoT Publisher 17"
+        native_vlan: iot_vlan
+      20:
+        name: "iot18"
+        description: "IoT Publisher 18"
+        native_vlan: iot_vlan
+      21:
+        name: "iot19"
+        description: "IoT Publisher 19"
+        native_vlan: iot_vlan
+      22:
+        name: "iot20"
+        description: "IoT Publisher 20"
+        native_vlan: iot_vlan
